@@ -71,6 +71,9 @@ header {
     text-align:center;
 
 }
-.stepimg {
+.leftimg {
+    width:20%;
+}
+.rightimg {
     width:20%;
 }
