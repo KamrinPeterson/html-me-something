@@ -81,9 +81,9 @@ header {
 
 }
 #footer {
-    background color: #e5e5e5;
     text-align:center;
     margin-top:20px;
+    font-family:'Proxima Nova';
 }
 /* image styles */
 .hero { 
