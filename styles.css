@@ -21,7 +21,7 @@ time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -55,21 +55,21 @@ table {
 
 /* main content */
 #wrapper {
-	max-width: 1020px;
 	margin: 0 auto;
 }
 .greyGroup{
     background-color:#e5e5e5;
     margin-top:15px;
+    padding-left:20px;
 }
 .whiteGroup{
     background-color:#fff;
     margin-top:15px;
-
+    padding-left:20px;
 }
 h3 {
     font-family:'Proxima Nova';
-    font-size:16px;
+    font-size:20px;
     font-weight:bold;
     margin-bottom:10px;
 }
@@ -95,6 +95,7 @@ header {
 .rightimg {
     width:55%;
     padding: 10px 10px 10px 10px;
+    float:right;
 }
 
 .lefti {
@@ -105,6 +106,7 @@ header {
     display: inline-block;
     position: inherit;
     padding-top: 20px;
-    width:50%
+    width:50%;
+    margin-left:20px;
 }
 
