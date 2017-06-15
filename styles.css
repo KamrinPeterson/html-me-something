@@ -46,11 +46,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-#footer {
-    background color: #e5e5e5;
-    text-align:center;
-    margin-top:20px;
-}
 
 
 /* main content */
@@ -73,20 +68,27 @@ h3 {
     font-weight:bold;
     margin-bottom:10px;
 }
-p {
-    font-family:'Proxima Nova';
-}
 header {
     font-family:'Proxima Nova';
-    font-size:30px;
+    font-size:40px;
     text-align:center;
-    margin-top:10%;
+    margin-top:30px;
 }
 .subheader {
     font-family:'Proxima Nova';
     font-size:20px;
     text-align:center;
 
+}
+#footer {
+    background color: #e5e5e5;
+    text-align:center;
+    margin-top:20px;
+}
+/* image styles */
+.hero { 
+    width: 40%;
+    margin-top: 30px;
 }
 .leftimg {
     width:55%;
@@ -97,7 +99,10 @@ header {
     padding: 10px 10px 10px 10px;
     float:right;
 }
-
+/* paragraph styles */
+p {
+    font-family:'Proxima Nova';
+}
 .lefti {
     display:inline-block;
     width:40%;
